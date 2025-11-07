@@ -1,0 +1,12 @@
+gradio
+langchain==0.3.12
+langchain-core==0.3.28
+langchain-community==0.3.12
+langchain-openai==0.2.14
+langchain-chroma==0.1.4
+langchain-text-splitters==0.3.4
+python-dotenv
+tiktoken
+chromadb
+pydantic==2.9.2
+PyMuPDF>=1.23.0

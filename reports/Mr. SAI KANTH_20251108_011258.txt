@@ -1,0 +1,9 @@
+Medical Report - Mr. SAI KANTH
+Extracted on: 2025-11-08 01:12:58
+Total Tests: 3
+
+Test Results:
+==================================================
+BIOCHEMISTRY: 30.2
+BIOCHEMISTRY: 201.8
+BIOCHEMISTRY: 12.0
