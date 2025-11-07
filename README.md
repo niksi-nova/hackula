@@ -47,7 +47,7 @@ OPENAI_API_KEY=your-openai-api-key-here
 
 5. **Run the application**
 ```bash
-python health_rag.py
+python with_ext.py
 ```
 
 The app will open in your browser at `http://127.0.0.1:7860` and display a public shareable URL.
