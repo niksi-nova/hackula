@@ -1,0 +1,4 @@
+libmupdf-dev
+libfreetype6
+libjpeg62-turbo
+libopenjp2-7
