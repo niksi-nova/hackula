@@ -9,7 +9,6 @@ python-dotenv
 tiktoken
 chromadb
 pydantic==2.9.2
-PyMuPDF>=1.23.0
 next-asyncio
 langchain-mongodb
-PyMuPDF
+pymupdf==1.24.10 --no-binary=pymupdf
