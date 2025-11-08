@@ -1,7 +1,7 @@
 import os
 import re
 import json
-import fitz  # PyMuPDF
+#import fitz  # PyMuPDF
 import certifi
 import bcrypt
 import gradio as gr
@@ -18,7 +18,11 @@ from langchain.chains import create_retrieval_chain
 from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.documents import Document
-
+try:
+    import fitz
+except ModuleNotFoundError:
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "pymupdf==1.23.9"])
+    import fitz
 
 # =============================
 # CONFIGURATION
