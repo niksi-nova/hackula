@@ -11,3 +11,5 @@ chromadb
 pydantic==2.9.2
 PyMuPDF>=1.23.0
 next-asyncio
+langchain-mongodb
+PyMuPDF
